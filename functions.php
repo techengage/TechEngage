@@ -3,7 +3,7 @@
  * techengage functions and definitions.
  *
  *
- * @package techengage
+ * @package TechEngage
  */
 
 

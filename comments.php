@@ -7,7 +7,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package techengage
+ * @package TechEngage
  */
 /*
  * If the current post is protected by a password and

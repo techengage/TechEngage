@@ -1,7 +1,7 @@
 <?php 
 /**
  * The template for displaying the content.
- * @package techengage
+ * @package TechEngage
  */
 ?>
 <div class="col-lg-12">

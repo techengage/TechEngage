@@ -7,14 +7,14 @@
  * It is used to display a page when nothing more specific matches a query.
  * E.g., it puts together the home page when no home.php file exists.
  *
- * @package techengage
+ * @package TechEngage
  */
 get_header(); ?>
 <!--==================== main content section ====================-->
 <main id="content">
   <div class="container">
     <div class="row">
-     <div class="<?php if( !is_active_sidebar('sidebar-1')) { echo "col-lg-12"; } else { echo "col-lg-9"; } ?> col-md-9"> 
+     <div class="<?php if( !is_active_sidebar('sidebar-1')) { echo "col-lg-12 col-md-12"; } else { echo "col-lg-9 col-md-9"; } ?>">
         <div class="content-container"> 
           <div class="row"> 
             <?php 

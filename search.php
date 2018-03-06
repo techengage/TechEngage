@@ -2,7 +2,7 @@
 /**
  * The template for displaying search results pages.
  *
- * @package techengage
+ * @package TechEngage
  */
 
 get_header(); 
@@ -11,7 +11,7 @@ get_header();
 <main id="content">
   <div class="container">
     <div class="row">
-      <div class="<?php if( !is_active_sidebar('sidebar-1')) { echo "col-lg-12"; } else { echo "col-lg-9"; } ?> col-md-9">
+      <div class="<?php if( !is_active_sidebar('sidebar-1')) { echo "col-lg-12 col-md-12"; } else { echo "col-lg-9 col-md-9"; } ?>">
         <div class="content-container">
 	        <div class="row">
 		        <?php 

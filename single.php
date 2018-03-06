@@ -7,7 +7,7 @@
   <div class="container">
     <div class="row"> 
       <!--/ Main blog column end -->
-      <div class="<?php if( !is_active_sidebar('sidebar-1')) { echo "col-lg-12"; } else { echo "col-lg-9"; } ?> col-md-9">
+      <div class="<?php if( !is_active_sidebar('sidebar-1')) { echo "col-lg-12 col-md-12"; } else { echo "col-lg-9 col-md-9"; } ?>">
         <div class="single-content-container">
           <div class="row">
   		      <?php if(have_posts())

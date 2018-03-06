@@ -7,13 +7,13 @@
  * and that other 'pages' on your WordPress site may use a
  * different template.
  *
- * @package techengage
+ * @package TechEngage
  */
 get_header(); ?>
 <main id="content">
     <div class="container">
       	<div class="row">
-			<div class="<?php if( !is_active_sidebar('sidebar-1')) { echo "col-lg-12"; } else { echo "col-lg-9"; } ?> col-md-9">
+			<div class="<?php if( !is_active_sidebar('sidebar-1')) { echo "col-lg-12 col-md-12"; } else { echo "col-lg-9 col-md-9"; } ?>">
         		<div class="single-content-container">
 					<div class="row">
 						<div class="col-lg-12">
