@@ -1,507 +1,177 @@
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: techengage\n"
-"POT-Creation-Date: 2017-12-20 09:37+0530\n"
+"POT-Creation-Date: 2018-03-15 11:47+0500\n"
 "PO-Revision-Date: 2017-12-20 09:37+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.5\n"
-"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
-"X-Poedit-Basepath: C:\\xampp\\htdocs\\wordpress9\\wp-content\\themes"
-"\\techengage\n"
-"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\wordpress9\\wp-content\\themes"
-"\\techengage\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n;_x;_ex;_nx;esc_attr__;"
+"esc_attr_e;esc_attr_x;esc_html__;esc_html_e;esc_html_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
 
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/404.php:17
-msgid "404"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/404.php:32
+#: 404.php:18
 msgid "4"
 msgstr ""
 
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/404.php:39
+#: 404.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:23
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:25
 msgid "Go Back"
 msgstr ""
 
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/content.php:32
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/sections/home-blog.php:66
-msgid "by"
+#: comments.php:30
+#, php-format
+msgid "One Comments &ldquo;%2$s&rdquo;"
 msgstr ""
 
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/content.php:37
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/templates/fullwidth.php:32
+#: comments.php:39 comments.php:60
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:42 comments.php:63
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:43 comments.php:64
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:74
+msgid "Comments are closed."
+msgstr ""
+
+#: content.php:55 page.php:24 single.php:47
 msgid "Pages:"
 msgstr ""
 
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/functions.php:74
+#: footer.php:27
+#, php-format
+msgid "Powered by %1$s"
+msgstr ""
+
+#: functions.php:67
 msgid "Primary menu"
 msgstr ""
 
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/functions.php:75
-msgid "Footer Menu"
+#: functions.php:126
+msgid "Sidebar"
 msgstr ""
 
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/functions.php:194
-msgid "Service section widgets"
+#: functions.php:136
+msgid "Footer Widget Area"
 msgstr ""
 
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/functions.php:236
+#: functions.php:163
 msgid "Read More"
 msgstr ""
 
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/header.php:173
+#: functions.php:175
+msgid "Read More &raquo;"
+msgstr ""
+
+#: header.php:47
 msgid "Toggle Navigation"
 msgstr ""
 
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/search.php:19
+#: inc/customize/customize_copyright.php:7
+msgid "Footer Social Icon Settings"
+msgstr ""
+
+#: inc/customize/customize_copyright.php:12
+msgid "Social Link"
+msgstr ""
+
+#: inc/customize/customize_copyright.php:23
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/customize/customize_copyright.php:34
+#: inc/customize/customize_copyright.php:55
+#: inc/customize/customize_copyright.php:77
+#: inc/customize/customize_copyright.php:99
+msgid "Open Link New tab/window"
+msgstr ""
+
+#: inc/customize/customize_copyright.php:44
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/customize/customize_copyright.php:65
+msgid "Linkedin URL"
+msgstr ""
+
+#: inc/customize/customize_copyright.php:87
+msgid "Google-plus URL"
+msgstr ""
+
+#: inc/template-tags.php:28
+#, php-format
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:33
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:50 inc/template-tags.php:56
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:58
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:64
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:64
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:64
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:71
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: search.php:21
 #, php-format
 msgid "Search Results for: %s"
 msgstr ""
 
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/search.php:23
+#: search.php:26
 msgid "Not Found"
 msgstr ""
 
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/search.php:25
+#: search.php:28
 msgid "Sorry, Do Not match."
 msgstr ""
 
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/single.php:48
-msgid "By"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_copyright.php:7
-msgid "Footer Social Icon Settings"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_copyright.php:12
-msgid "Social Link"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_copyright.php:23
-msgid "Facebook URL"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_copyright.php:34
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_copyright.php:55
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_copyright.php:77
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_copyright.php:99
-msgid "Open Link New tab/window"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_copyright.php:44
-msgid "Twitter URL"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_copyright.php:65
-msgid "Linkedin URL"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_copyright.php:87
-msgid "Google-plus URL"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_header.php:7
-msgid "Header Settings"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_header.php:13
-msgid "Header Widget One Setting"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_header.php:20
-msgid "fa-map-marker"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_header.php:26
-msgid "One Icon"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_header.php:33
-msgid "1240 Park Avenue"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_header.php:39
-msgid "One Title"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_header.php:47
-msgid "NYC, USA 256323"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_header.php:52
-msgid "One Description"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_header.php:60
-msgid "Header Widget Two Setting"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_header.php:73
-msgid "Two Icon"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_header.php:82
-msgid "7:30 AM - 7:30 PM"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_header.php:86
-msgid "Two Title"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_header.php:95
-msgid "Monday to Saturday"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_header.php:99
-msgid "Two Description"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_header.php:107
-msgid "Header Widget Three Setting"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_header.php:120
-msgid "Three Icon"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_header.php:133
-msgid "Three Title"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_header.php:146
-msgid "Three Description"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_header.php:154
-msgid "Header Widget Four Setting"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_header.php:163
-msgid "Get Quote"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_header.php:167
-msgid "Four Label"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_header.php:179
-msgid "Four Link"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_header.php:191
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:299
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:339
-msgid "Open Link New window"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:7
-msgid "Choose Post"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:15
-msgid "Frontpage Section Settings"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:16
-msgid ""
-"If you want homepage like slider, service, callout, news. Firstly create a "
-"page and assign homepage template then set your homepage using reading "
-"setting (Theme Dashboard >> Settings >> Reading), Click a static page "
-"(select below) and select your frontPage template like homePage template and "
-"set your posts blog page. Then click save changes"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:26
-msgid "Slider Setting"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:41
-msgid "Enable Slider Section"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:53
-msgid "Select Post One"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:66
-msgid "Select Post Two"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:79
-msgid "Select Post Three"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:92
-msgid ""
-"How to create a slider :- First, when you create a post, upload the slider "
-"title, slider descritpion or image to the post,Then, if you have created a "
-"slider post, get it selected here"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:115
-msgid "Service Setting"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:128
-msgid "Enable Service Section"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:142
-msgid "Service Title"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:155
-msgid "Service Subtitle"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:166
-msgid "Click here to add service"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:167
-msgid ""
-"Drag & Drop techengage: Service Widget On Service Section Widget Area Then "
-"Select Service Page and DIsplay Your Service Content in Homepage."
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:191
-msgid "Callout Setting"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:204
-msgid "Enable Callout Section"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:217
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:378
-msgid "Choose Background Image"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:230
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:391
-msgid "Choose Background Overlay Color"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:247
-msgid "Callout Title"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:260
-msgid "Callout Description"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:273
-msgid "Button One Title"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:286
-msgid "Button One URL"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:313
-msgid "Button Two Title"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:326
-msgid "Button Two URL"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:353
-msgid "News & Events Setting"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:366
-msgid "Enable News Section"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:407
-msgid "Latest News Title"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_homepage.php:420
-msgid "Latest News Subtitle"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_pro.php:14
-msgid "https://techengage.com/themes/techengage/"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_pro.php:14
-msgid "Upgrade To Pro"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_pro.php:21
-msgid "techengage Importants Links"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_pro.php:31
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_pro.php:55
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_pro.php:97
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_pro.php:107
-msgid "Discover techengage Pro"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_pro.php:44
-msgid "https://wordpress.org/support/view/theme-reviews/techengage#postform/"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_pro.php:44
-msgid "Support Forum"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_pro.php:68
-msgid "https://techengage.com/docs/wp/techengage-lite/"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_pro.php:68
-msgid "Documentation"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_pro.php:83
-msgid "https://techengage.com/themes/"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_pro.php:83
-msgid "Explore Our Themes"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_theme_style.php:9
-msgid "Theme Style Palette"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_theme_style.php:14
-msgid "Set Your Header Color"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_theme_style.php:23
-msgid "Enable/Disable Header Custom Color Feature"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_theme_style.php:37
-msgid "Top Header Background Color"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_theme_style.php:50
-msgid "Top Header Text Color"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_theme_style.php:61
-msgid "Header Background Color"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_theme_style.php:73
-msgid "Site Title Text Color"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_theme_style.php:86
-msgid "Menu Bar Background Color"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_theme_style.php:98
-msgid "Menu Background Color"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_theme_style.php:110
-msgid "Menu Background Hover/Active Color"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_theme_style.php:122
-msgid "Menu Border Bottom color"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_theme_style.php:134
-msgid "Menu Border Bottom Hover/Active color"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_theme_style.php:146
-msgid "Menu Text Color"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_theme_style.php:158
-msgid "Menu Text Hover/Active Color"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_theme_style.php:170
-msgid "Sub Menu Background Color"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_theme_style.php:183
-msgid "Sub Menu Background Hover color"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_theme_style.php:195
-msgid "Sub Menu Text Color"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_theme_style.php:202
-msgid "Set Your Footer Color"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_theme_style.php:213
-msgid "Enable/Disable Footer Custom Color Feature"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_theme_style.php:228
-msgid "Footer Background Color "
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_theme_style.php:240
-msgid "Footer Widget Heading Color "
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_theme_style.php:252
-msgid "Footer Text Color "
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_theme_style.php:264
-msgid "Footer Copyright Background Color "
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_theme_style.php:276
-msgid "Footer Copyright Text Color "
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_top_header.php:7
-msgid "Top Header Settings"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_top_header.php:11
-msgid "Header Info Details Setting"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_top_header.php:22
-msgid "Info One:"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/customize/ms_customize_top_header.php:35
-msgid "Info Two:"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/themeinfo/themeinfo-detail.php:51
-msgid "Action failed. Please refresh the page and retry."
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/themeinfo/themeinfo-detail.php:55
-msgid "Cheatin&#8217; huh?"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/themeinfo/themeinfo-detail.php:68
-msgid "Dismiss"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/widget/techengage-service.php:13
-msgid "techengage - Service Widget"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/widget/techengage-service.php:14
-msgid "Service Section Widget"
-msgstr ""
-
-#: C:\xampp\htdocs\wordpress9\wp-content\themes\techengage/inc/widget/techengage-service.php:64
-msgid "Select Pages:"
+#: searchform.php:3
+msgid "type to search"
 msgstr ""

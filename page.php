@@ -21,6 +21,7 @@ get_header(); ?>
 								<?php if( have_posts()) :  the_post(); ?>
 								<h1><?php the_title(); ?></h1>		
 								<?php the_content(); ?>
+								<?php wp_link_pages( array( 'before' => '<div class="link page-break-links">' . __( 'Pages:', 'techengage' ), 'after' => '</div>' ) ); ?>
 								<?php endif; ?>
 							</div>
 							<?php comments_template( '', true ); // show comments ?>

@@ -1,10 +1,9 @@
 /*
 Theme Name: TechEngage
-Theme URI: https://techengage.com/our-theme/
 Author: Jazib Zaman
 Author URI: https://techengage.com/
 Description: TechEngage is a modern WordPress theme designed using Bootstrap Framework. This theme also uses animation effects to make it even better. Theme is a flexible foundation that adapts your website to mobile devices and the desktop or any other viewing environment. TechEngage is a great design idea for websites like Tech Support Services, Corporate, Corporation, Company Profile, Personal Portfolio, and more.
-Version: 1.0.1
+Version: 1.0.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: techengage
@@ -2789,4 +2788,7 @@ footer .widget_search .input-group .form-control{
 .navbar-brand > img.custom-logo{
 	height: 80px;
 	width:170px;
+}
+.single-page-break, .page-break-links{
+	font-size: 1.2em;
 }

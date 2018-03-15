@@ -44,6 +44,7 @@
                     <span class="meta-data-date"><?php echo get_the_date( 'F j, Y' ); ?></span>
                   </div>
                   <?php the_content(); ?>
+                  <?php wp_link_pages( array( 'before' => '<div class="link single-page-break">' . __( 'Pages:', 'techengage' ), 'after' => '</div>' ) ); ?>
                 </article>
               </div>
             </div>

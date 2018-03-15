@@ -82,11 +82,7 @@ function techengage_setup() {
 	add_theme_support( 'custom-logo');
 
 	function techengage_the_custom_logo() {
-	
-	if ( function_exists( 'the_custom_logo' ) ) {
 		the_custom_logo();
-	}
-
 	}
 
 	add_filter('get_custom_logo','techengage_logo_class');
@@ -171,8 +167,11 @@ function techengage_read_more() {
 add_filter( 'the_content_more_link', 'techengage_read_more' );
 
 // Changing excerpt more
-   function new_excerpt_more($more) {
-   global $post;
-   return ' <br><a class="read-more-button" href="'. get_permalink($post->ID) . '">' . 'Read More &raquo;' . '</a>';
-   }
-   add_filter('excerpt_more', 'new_excerpt_more');
+   	function techengage_excerpt_more($more) {
+   	if ( is_admin() ){
+		return $more;
+	}
+   	global $post;
+   	return ' <br><a class="read-more-button" href="'. get_permalink($post->ID) . '">' . __('Read More &raquo;','techengage') . '</a>';
+   	}
+   	add_filter('excerpt_more', 'techengage_excerpt_more');
