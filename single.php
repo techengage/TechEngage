@@ -52,7 +52,7 @@
             <div class="col-lg-12">
               <div class="media techengage-info-author-block"> <a href="<?php echo esc_url(get_author_posts_url( get_the_author_meta( 'ID' ) ));?>" class="techengage-author-pic"> <?php echo get_avatar( get_the_author_meta( 'ID') , 150); ?> </a>
                 <div class="media-body">
-                  <h4 class="media-heading"><a href="<?php echo esc_url(get_author_posts_url( get_the_author_meta( 'ID' ) ));?>"><?php the_author(); ?></a></h4>
+                  <h4 class="media-heading">About: <a href="<?php echo esc_url(get_author_posts_url( get_the_author_meta( 'ID' ) ));?>"><?php the_author(); ?></a></h4>
                   <p><?php the_author_meta( 'description' ); ?></p>
                   <div class="row">
                     <div class="col-lg-6">

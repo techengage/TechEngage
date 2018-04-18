@@ -35,7 +35,7 @@
                  else { ?>
                 <a class="navbar-brand" href="<?php echo esc_url(home_url( '/' )); ?>"><span class="site-title"><?php bloginfo('name'); ?></span>
     			      <br>
-                <span class="site-description"><?php echo  get_bloginfo( 'description', 'display' ); ?></span>   
+                <span class="site-description"><?php echo  esc_html(get_bloginfo( 'description', 'display' )); ?></span>   
                 </a>      
                 <?php } ?>
                 <!-- Logo -->

@@ -18,14 +18,14 @@ get_header();
 					global $i;
 					if ( have_posts() ) : ?>
 					<h2 class="search-result">
-						<?php printf( __( "Search Results for: %s", 'techengage' ), '<span>' . get_search_query() . '</span>' );?>	
+						<?php printf( esc_html__( "Search Results for: %s", 'techengage' ), '<span>' . get_search_query() . '</span>' );?>	
 					</h2>
 					<?php while ( have_posts() ) : the_post();  
 					 get_template_part('content','');
 					 endwhile; else : ?>
-					<h2><?php _e('Not Found','techengage'); ?></h2>
+					<h2><?php esc_html_e('Not Found','techengage'); ?></h2>
 					<div class="">
-					<p><?php _e('Sorry, Do Not match.','techengage' ); ?>
+					<p><?php esc_html_e('Sorry, Do Not match.','techengage' ); ?>
 					</p>
 					<?php get_search_form(); ?>
 					</div><!-- .blog_con_mn -->

@@ -15,14 +15,14 @@ get_header(); ?>
         <div id="primary" class="content-area">
           <main id="main" class="site-main" role="main">
             <div class="techengage-error-404">
-              <h1><?php _e('4','techengage'); ?><i class="fa fa-times-circle-o"></i><?php _e('4','techengage'); ?></h1>
+              <h1><?php esc_html_e('4','techengage'); ?><i class="fa fa-times-circle-o"></i><?php esc_html_e('4','techengage'); ?></h1>
               <h4>
                 <?php esc_html_e( 'Oops! That page can&rsquo;t be found.', 'techengage' ); ?>
               </h4>
               <p>
                 <?php esc_html_e( 'It looks like nothing was found at this location. Maybe try one of the links below or a search?', 'techengage' ); ?>
               </p>
-              <a href="<?php echo esc_url(home_url());?>" onClick="history.back();" class="btn btn-theme"><?php _e('Go Back','techengage'); ?></a> </div>
+              <a href="<?php echo esc_url(home_url());?>" onClick="history.back();" class="btn btn-theme"><?php esc_html_e('Go Back','techengage'); ?></a> </div>
             <section class="error-404 not-found">
               <header class="page-header">
                 <h1 class="page-title"></h1>

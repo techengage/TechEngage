@@ -3,7 +3,7 @@
 Contributors: techengage
 Requires at least: WordPress 4.7
 Tested up to: WordPress 5.0-trunk
-Version: 1.0.2
+Version: 1.0.3
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Tags: one-column, two-columns, right-sidebar, custom-logo, flexible-header, custom-background, custom-menu, footer-widgets, blog, threaded-comments, translation-ready
@@ -23,7 +23,7 @@ To make your website in two columns use sidebar widget section. To set custom me
 
 This theme is compatible with Wordpress Version 4.7  and above and it supports the new theme customization API (https://codex.wordpress.org/Theme_Customization_API).
 
-Supported browsers: Firefox, Opera, Chrome, Safari and IE10+ (Some css3 styles like shadows, rounder corners and 2D transform are not supported by IE8 and below).
+Supported browsers: Firefox, Opera, Chrome, Safari and IE11 (Some css3 styles like shadows, rounder corners and 2D transform are not supported by IE8 and below).
 
 == Installation ==
 
@@ -37,16 +37,12 @@ Supported browsers: Firefox, Opera, Chrome, Safari and IE10+ (Some css3 styles l
 
 == Copyright ==
 
-TechEngage WordPress Theme, Copyright 2018
+TechEngage WordPress Theme, Copyright 2018 Jazib Zaman
 TechEngage is distributed under the terms of the GNU GPL
 
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-This program is distributed in the hope that it will be useful, 
-but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
 TechEngage bundles the following third-party resources:
 
@@ -57,21 +53,43 @@ This theme uses Bootstrap as a design tool
 * Copyright (c) 2011-2016 Twitter, Inc
 * Licensed under https://github.com/twbs/bootstrap/blob/master/LICENSE
 
-=================================================
-This theme uses Font Awesome for the theme icons
-=================================================
-* Font Awesome icons, Copyright Dave Gandy
-* License: SIL Open Font License, version 1.1.
+============================
+This theme uses Font Awesome 
+============================
+* License: https://fontawesome.com/license
 * Source: http://fontawesome.io/
 
-======================================
+================================
 This theme uses daneden/animate
-======================================
+================================
 * Animate  : https://github.com/daneden
 * Copyright (c) 2018 Daniel Eden ( https://github.com/daneden/animate.css/blob/master/LICENSE )
 * Licensed under https://github.com/daneden/animate.css
 
+=================================
+This theme uses SmartMenus jQuery
+=================================
+* Version v1.0.0 - January 27, 2016
+* http://www.smartmenus.org/
+* Copyright Vasil Dinkov, Vadikom Web Ltd. http://vadikom.com; Licensed MIT
+
+=========================
+images used in screenshot
+=========================
+* Copyright: cdu445
+* Source: https://pixabay.com/en/roundtable-light-interior-design-tv-828546/
+* Copyright: geralt
+* Source: https://pixabay.com/en/place-name-sign-thing-experience-1647341/
+* License: CC0 Creative Commons
+
+
 == Changelog ==
+
+= 1.0.3 =
+
+* Released: April 18, 2018
+* Errors/Bugs Removal
+* License Addition
 
 = 1.0.2 =
 

@@ -24,7 +24,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 col-sm-6">
-			    <p>&copy; <?php echo esc_html(date('Y')).' '.'Techengage'; ?> | <?php printf( esc_html__( 'Powered by %1$s', 'techengage' ),  '<a href="'.esc_url('https://www.wordpress.com').'" rel="designer">WordPress</a>' ); ?>   
+			    <p>&copy; <?php echo esc_html(date_i18n( 'Y' )).' ';bloginfo('name'); ?> | <?php printf( esc_html__( 'Powered by %1$s', 'techengage' ),  '<a href="'.esc_url('http://wordpress.org/').'" rel="designer">WordPress</a>' ); ?>   
           </p>
 		    </div>
         <div class="col-lg-6 col-sm-6 text-right">

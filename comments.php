@@ -25,14 +25,27 @@ if ( post_password_required() ) {
 	// You can start editing here -- including this comment!
 	if ( have_comments() ) : ?>
 		<h2 class="comments-title">
-			<?php
-				printf( // WPCS: XSS OK.
-					esc_html( _nx( 'One Comments &ldquo;%2$s&rdquo;', '%1$s Comments', get_comments_number(), 'comments title', 'techengage' ) ),
-					number_format_i18n( get_comments_number() ),
-					'<span>' . get_the_title() . '</span>'
-				);
-			?>
-		</h2>
+           	<?php
+                   	$comments_number = get_comments_number();
+                   	if ( '1' === $comments_number ) {
+                           	/* translators: %s: post title */
+                           	printf( esc_attr_x( 'One thought on &ldquo;%s&rdquo;', 'comments title', 'techengage' ), get_the_title() );
+                   	} 	else {
+                           	printf(
+                                   	/* translators: 1: number of comments, 2: post title */
+                                   	esc_html(_nx(
+                                       	'%1$s thought on &ldquo;%2$s&rdquo;',
+                                       	'%1$s thoughts on &ldquo;%2$s&rdquo;',
+                                       	$comments_number,
+                                       	'comments title',
+                                       	'techengage'
+                                   	)),
+                                   	esc_html(number_format_i18n( $comments_number )),
+                                   	get_the_title()
+                           	);
+                   	}
+            ?>
+        </h2>
 
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // Are there comments to navigate through? ?>
 		<nav id="comment-nav-above" class="navigation comment-navigation" role="navigation">
@@ -51,6 +64,7 @@ if ( post_password_required() ) {
 				wp_list_comments( array(
 					'style'      => 'ol',
 					'short_ping' => true,
+					'avatar_size' => 64,
 				) );
 			?>
 		</ol><!-- .comment-list -->
