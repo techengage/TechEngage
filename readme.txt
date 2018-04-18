@@ -3,14 +3,14 @@
 Contributors: techengage
 Requires at least: WordPress 4.7
 Tested up to: WordPress 5.0-trunk
-Version: 1.0.3
+Version: 1.0.4
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Tags: one-column, two-columns, right-sidebar, custom-logo, flexible-header, custom-background, custom-menu, footer-widgets, blog, threaded-comments, translation-ready
 
 == Description ==
 
-TechEngage is a modern WordPress theme designed using Bootstrap Framework. This theme also uses animation effects to make it even better. Theme is a flexible foundation that adapts your website to mobile devices and the desktop or any other viewing environment. TechEngage is a great design idea for websites like Tech Support Services, Corporate, Corporation, Company Profile, Personal Portfolio, and more.
+TechEngage is a modern WordPress theme designed using Bootstrap Framework. This theme also uses animation effects to make it even better. Theme is a flexible foundation that adapts your website to mobile devices and the desktop or any other viewing environment. TechEngage is a great design idea for websites like Tech blogs,Tech Support Services, Corporate, Corporation, Company Profile, Personal Portfolio, and more. You can view our theme's demo https://techengage.com/demo/ here and can find more inforamtion about theme at https://techengage.com/our-wordpress-theme/
 
 Theme has two columns layout. The content is on left side and a right sidebar widget. We focused on usability across various devices, starting with smart phones.it is compatible with various devices. TechEngage is a 
 Cross-Browser Compatible theme that works on All leading web browsers. TechEngage is easy to use and 
@@ -84,6 +84,11 @@ images used in screenshot
 
 
 == Changelog ==
+
+= 1.0.4 =
+
+* Released: April 18, 2018
+* Description Changes + Theme URI Added
 
 = 1.0.3 =
 
