@@ -3,7 +3,7 @@
 Contributors: techengage
 Requires at least: WordPress 4.7
 Tested up to: WordPress 5.0-trunk
-Version: 1.0.4
+Version: 1.0.5
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Tags: one-column, two-columns, right-sidebar, custom-logo, flexible-header, custom-background, custom-menu, footer-widgets, blog, threaded-comments, translation-ready
@@ -12,16 +12,14 @@ Tags: one-column, two-columns, right-sidebar, custom-logo, flexible-header, cust
 
 TechEngage is a modern WordPress theme designed using Bootstrap Framework. This theme also uses animation effects to make it even better. Theme is a flexible foundation that adapts your website to mobile devices and the desktop or any other viewing environment. TechEngage is a great design idea for websites like Tech blogs,Tech Support Services, Corporate, Corporation, Company Profile, Personal Portfolio, and more. You can view our theme's demo https://techengage.com/demo/ here and can find more inforamtion about theme at https://techengage.com/our-wordpress-theme/
 
-Theme has two columns layout. The content is on left side and a right sidebar widget. We focused on usability across various devices, starting with smart phones.it is compatible with various devices. TechEngage is a 
-Cross-Browser Compatible theme that works on All leading web browsers. TechEngage is easy to use and 
-user friendly theme.
+Theme has two columns layout. The content is on left side and a right sidebar widget. We focused on usability across various devices, starting with smart phones.it is compatible with various devices. TechEngage is a Cross-Browser Compatible theme that works on All leading web browsers. TechEngage is easy to use and user friendly theme.
 
 To make your site attractive it has two widget sections first for sidebar widget section and 
 second for Footer widget sections.
 
 To make your website in two columns use sidebar widget section. To set custom menu in header set primary location. We added social media links in footer section to add your social links.It boasts of beautifully designed page sections , Home, Blog and Default Page Template(page with right sidebar). TechEngage is translation ready theme with WPML compatible & Many More.
 
-This theme is compatible with Wordpress Version 4.7  and above and it supports the new theme customization API (https://codex.wordpress.org/Theme_Customization_API).
+This theme is compatible with Wordpress Version 4.7 and above and it supports the new theme customization API (https://codex.wordpress.org/Theme_Customization_API).
 
 Supported browsers: Firefox, Opera, Chrome, Safari and IE11 (Some css3 styles like shadows, rounder corners and 2D transform are not supported by IE8 and below).
 
@@ -56,8 +54,11 @@ This theme uses Bootstrap as a design tool
 ============================
 This theme uses Font Awesome 
 ============================
-* License: https://fontawesome.com/license
-* Source: http://fontawesome.io/
+* Font Awesome
+* Copyright: Dave Gandy
+* Resource URI: http://fontawesome.io
+* License: MIT
+* License URI: https://opensource.org/licenses/mit-license.html
 
 ================================
 This theme uses daneden/animate
@@ -84,6 +85,11 @@ images used in screenshot
 
 
 == Changelog ==
+
+= 1.0.5 =
+
+* Released: April 23, 2018
+* Fontawesome License Added
 
 = 1.0.4 =
 
