@@ -41,7 +41,7 @@
                 <!-- Logo -->
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-9 main-menu" >
+              <div class="col-xs-12 col-sm-9 main-menu<?php if( get_bloginfo( 'description') != "" ){echo ' adjust-margin'; } ?>" >
                 <nav class="navbar navbar-default navbar-static-top navbar-wp">
                   <!-- navbar-toggle -->
                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-wp"> <span class="sr-only"><?php __('Toggle Navigation','techengage'); ?></span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>

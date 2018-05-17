@@ -20,12 +20,13 @@
 	/* Customizer */
 	/* ----------------------------------------------------------------------------------- */
 
-	require( $techengage_theme_path . '/customize/customize_copyright.php');
+	require( $techengage_theme_path . '/customize/customize_copyright_and_icons.php');
+	require( $techengage_theme_path . '/customize/footer_settings.php');
+	require( $techengage_theme_path . '/customize/header_settings.php');
 	require( $techengage_theme_path . '/customize/customize_control/class-customize-alpha-color-control.php');
-	
-	
-	
-	
+	require( $techengage_theme_path . '/customize/colors_copyright_and_icons.php');
+	require( $techengage_theme_path . '/customize/colors_footer_settings.php');
+	require( $techengage_theme_path . '/customize/colors_header_settings.php');
 
 if ( ! function_exists( 'techengage_setup' ) ) :
 /**

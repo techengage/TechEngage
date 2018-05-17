@@ -3,7 +3,7 @@
 Contributors: techengage
 Requires at least: WordPress 4.7
 Tested up to: WordPress 5.0-trunk
-Version: 1.0.5
+Version: 1.0.6
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Tags: one-column, two-columns, right-sidebar, custom-logo, flexible-header, custom-background, custom-menu, footer-widgets, blog, threaded-comments, translation-ready
@@ -85,6 +85,12 @@ images used in screenshot
 
 
 == Changelog ==
+
+= 1.0.6 =
+
+* Released: May 17, 2018
+* Added Colors Options In Customizer For Header, Footer and Copyright Section
+* Resolved Some Responsiveness Issues
 
 = 1.0.5 =
 

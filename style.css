@@ -4,7 +4,7 @@ Theme URI: https://techengage.com/
 Author: Jazib Zaman
 Author URI: https://techengage.com/about-us/
 Description: TechEngage is a modern WordPress theme designed using Bootstrap Framework. This theme also uses animation effects to make it even better. Theme is a flexible foundation that adapts your website to mobile devices and the desktop or any other viewing environment. TechEngage is a great design idea for websites like Tech blogs,Tech Support Services, Corporate, Corporation, Company Profile, Personal Portfolio, and more. You can view our theme's demo https://techengage.com/demo/ here and can find more inforamtion about theme at https://techengage.com/our-wordpress-theme/
-Version: 1.0.5
+Version: 1.0.6
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: techengage
@@ -1128,7 +1128,7 @@ footer .techengage-footer-widget-area {
 	padding-top: 50px;
 }
 footer .techengage-widget {
-	margin-bottom: 50px;
+	padding-bottom: 20px;
 }
 footer .techengage-widget:nth-child(4n+1) {
 	clear: both;
@@ -1152,7 +1152,7 @@ footer .techengage-widget.widget_search .btn {
 	border-width: 1px;
 	border-style: solid;
 	padding: 2px 12px;
-	height: 40px;
+	height: 35px;
 	border-top-right-radius: 3px;
 }
 footer .techengage-widget.widget_search .btn-default, footer .techengage-widget.widget_search .btn-default:hover {
@@ -1450,11 +1450,24 @@ footer .techengage-widget .wpcf7-form .wpcf7-form-control {
 	border: none;
 }
 footer .techengage-footer-copyright {
-	padding: 25px 0 10px;
+	padding: 20px 0 10px;
 }
 footer .techengage-footer-copyright p, footer .techengage-footer-copyright a {
 	font-size: 13px;
 	line-height: 23px;
+}
+
+footer .copy-right-line{
+	padding-top: 3px;
+}
+footer .techengage-footer-copyright .copy-right-line a{
+	text-decoration: underline;
+	font-weight: bold;
+	transition: 0.4s;
+}
+footer .techengage-footer-copyright .copy-right-line a:hover{
+	transition: 0.4s;
+	color: #ddd;
 }
 footer .techengage-social {
 	padding: 0px;
@@ -2332,7 +2345,7 @@ footer .techengage-widget h6 {
 	color: #fff;
 }
 footer a {
-	color: #969ea7;
+	color: #fff;
 }
 footer a:hover, footer a:focus {
 	color: #fff;
@@ -2718,7 +2731,7 @@ footer .widget_search .input-group .form-control{
 	right: auto;
 }
 
-.main-menu{
+.adjust-margin{
 	margin: 1% 0%;
 }
 
@@ -2740,7 +2753,7 @@ footer .widget_search .input-group .form-control{
 		margin-bottom: 15px;
 }
 
-@media screen and (min-width:767px ){
+@media screen and (min-width:992px ){
 	.tile-img-height{
 		height: 150px;
 		margin-bottom: 15px;
@@ -2795,4 +2808,37 @@ footer .widget_search .input-group .form-control{
 }
 .single-page-break, .page-break-links{
 	font-size: 1.2em;
+}
+/*Image Alignment*/
+.alignright{
+    display: inline;
+    float: right;
+    margin-left: 1.5em;
+}
+.alignleft{
+    display: inline;
+    float: left;
+    margin-right: 1.5em;
+}
+img.alignright{
+    float: right;
+    margin-left: 1.5em;
+}
+img.alignleft{
+    float: left;
+    margin-right: 1.5em;
+}
+figure.alignleft{
+    float: left;
+    margin-right: 1.5em !important;
+}
+figure.alignright{
+    float: right;
+    margin-left: 1.5em !important;
+}
+figure.aligncenter img[class*="wp-image-"]{
+    display: inline-block;
+}
+.clearfix{
+    background-color: transparent;
 }
